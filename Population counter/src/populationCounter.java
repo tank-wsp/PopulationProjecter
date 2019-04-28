@@ -1,3 +1,4 @@
+//Program to calculate the projected population growth in 5 years added to the current population
 
 public class populationCounter {
 	public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class populationCounter {
 	double deathCounter= yearCounter /13;
 	double immigrantCounter=yearCounter/45;
 	double currentPopCounter= (birthCounter+immigrantCounter+currentPopulation)-deathCounter;
-	//double secondCounter= 60;
+	
 
 	
 	System.out.println("There will be"+ " " + birthCounter*5+ " "+"births in the next five years,");
